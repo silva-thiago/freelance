@@ -1,0 +1,68 @@
+/** app styles **/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100vh;
+}
+
+body {
+  background-color: rgb(247, 250, 252);
+  color: rgb(26, 32, 44);
+  font-family: 'Roboto Slab', serif;
+  font-feature-settings: 'liga'; // Support for IE
+  font-size: calc(1rem + 1vmin);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: normal;
+  text-rendering: optimizeLegibility; // Support for Safari and Chrome
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* browser scrollbar styles */
+  &::-webkit-scrollbar {
+    width: 0.75rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: rgb(247, 250, 252);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 0.5rem;
+    background-color: rgb(26, 32, 44);
+  }
+}
+
+.app {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main {
+  flex-shrink: flex-shrink-0;
+}
+
+.container {
+  margin: auto;
+  max-width: 768px;
+  padding: 1rem 0;
+  width: 90vw;
+
+  @include for-size(phone-only) { max-width: 520px; }
+  @include for-size(tablet-portrait-up) { max-width: 520px; }
+  @include for-size(tablet-landscape-up) { max-width: 768px; }
+  @include for-size(laptop-up) { max-width: 768px; }
+  @include for-size(big-laptop-up) { max-width: 768px; }
+  @include for-size(desktop-up) { max-width: 768px; }
+  @include for-size(screen-up) { max-width: 768px; }
+}

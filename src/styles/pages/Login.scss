@@ -1,0 +1,16 @@
+/* login styles */
+.bg-image {
+  background-image: url('/assets/img/long-pier.jpg');
+  background-size: cover;
+  background-position: top center;
+}
+
+.logotype {
+  height: 30px;
+  pointer-events: none;
+}
+
+.btn-auth-group {
+  display: flex;
+  flex-direction: column;
+}

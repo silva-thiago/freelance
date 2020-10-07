@@ -1,0 +1,80 @@
+/* buttons style */
+.btn.btn-blue {
+  background-color: rgb(49, 130, 206);
+  border-color: rgb(49, 130, 206);
+  border-radius: .375rem;
+  box-shadow: 0 2px 2px 0 rgba(49, 130, 206, .14), 0 3px 1px -2px rgba(49, 130, 206, .2), 0 1px 5px 0 rgba(49, 130, 206, .12);
+  color: rgb(255, 255, 255);
+}
+
+.btn.btn-blue.focus,
+.btn.btn-blue:focus,
+.btn.btn-blue:hover {
+  background-color: rgb(44, 82, 130);
+  border-color: rgb(42, 67, 101);
+  color: rgb(255, 255, 255);
+}
+
+.btn.btn-blue.active,
+.btn.btn-blue:active,
+.open>.btn.btn-blue.dropdown-toggle,
+.show>.btn.btn-blue.dropdown-toggle {
+  background-color: rgb(44, 82, 130);
+  border-color: rgb(42, 67, 101);
+  box-shadow: 0 2px 2px 0 rgba(49, 130, 206, .14), 0 3px 1px -2px rgba(49, 130, 206, .2), 0 1px 5px 0 rgba(49, 130, 206, .12);
+  color: rgb(255, 255, 255);
+}
+
+.btn.btn-blue.active.focus,
+.btn.btn-blue.active:focus,
+.btn.btn-blue.active:hover,
+.btn.btn-blue:active.focus,
+.btn.btn-blue:active:focus,
+.btn.btn-blue:active:hover,
+.open>.btn.btn-blue.dropdown-toggle.focus,
+.open>.btn.btn-blue.dropdown-toggle:focus,
+.open>.btn.btn-blue.dropdown-toggle:hover,
+.show>.btn.btn-blue.dropdown-toggle.focus,
+.show>.btn.btn-blue.dropdown-toggle:focus,
+.show>.btn.btn-blue.dropdown-toggle:hover {
+  background-color: rgb(44, 82, 130);
+  border-color: rgb(42, 67, 101);
+  color: rgb(255, 255, 255);
+}
+
+.open>.btn.btn-blue.dropdown-toggle.bmd-btn-icon {
+  background-color: rgb(49, 130, 206);
+  color: inherit;
+}
+
+.open>.btn.btn-blue.dropdown-toggle.bmd-btn-icon:hover {
+  background-color: rgb(44, 82, 130)
+}
+
+.btn.btn-blue.disabled.focus,
+.btn.btn-blue.disabled:focus,
+.btn.btn-blue.disabled:hover,
+.btn.btn-blue:disabled.focus,
+.btn.btn-blue:disabled:focus,
+.btn.btn-blue:disabled:hover {
+  background-color: rgb(49, 130, 206);
+  border-color: rgb(49, 130, 206)
+}
+
+.btn.btn-blue:active,
+.btn.btn-blue:focus,
+.btn.btn-blue:hover {
+  box-shadow: 0 14px 26px -12px rgba(49, 130, 206, .42), 0 4px 23px 0 rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(49, 130, 206, .2)
+}
+
+.btn.btn-blue.btn-link {
+  box-shadow: none
+}
+
+.btn.btn-blue.btn-link,
+.btn.btn-blue.btn-link:active,
+.btn.btn-blue.btn-link:focus,
+.btn.btn-blue.btn-link:hover {
+  background-color: rgb(49, 130, 206);
+  color: rgb(255, 255, 255)
+}
