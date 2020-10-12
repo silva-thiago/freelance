@@ -17,7 +17,8 @@ const Login = () => {
                       <img src={logo} className='logotype' alt='Logo da Solumedi' />
                     </div>
                     <div className='card-body'>
-                      <p className='card-description text-center'>Insira seus dados para entrar</p>
+                      <h3 className='card-description text-center'>Fazer login</h3>
+                      <p className='card-description text-center'>Ir para o dashboard</p>
                       <span className='bmd-form-group'>
                         <div className='input-group'>
                           <div className='input-group-prepend'>
@@ -25,7 +26,7 @@ const Login = () => {
                               <i className='material-icons'>email</i>
                             </span>
                           </div>
-                          <input type='email' className='form-control' placeholder='Digite seu@email.com' />
+                          <input type='email' className='form-control' placeholder='E-mail' />
                         </div>
                       </span>
                       <span className='bmd-form-group'>
@@ -42,7 +43,6 @@ const Login = () => {
                     <div className='card-footer justify-content-center btn-auth-group'>
                       <button className='btn btn-transparent btn-link btn-lg'>Esqueceu a senha?</button>
                       <button className='btn btn-blue btn-link btn-lg'><strong>ENTRAR</strong></button>
-                      <button className='btn btn-transparent btn-link btn-lg'>Não tem conta?</button>
                     </div>
                   </div>
                 </form>
