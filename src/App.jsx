@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Login from './pages/auth/Login'
+import ForgotPassword from './pages/auth/ForgotPassword'
 
 const App = ({ children }) => {
   return (
@@ -9,6 +10,9 @@ const App = ({ children }) => {
         <Login>
           {children}
         </Login>
+        <ForgotPassword>
+          {children}
+        </ForgotPassword>
       </main>
     </div>
   )
