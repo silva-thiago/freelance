@@ -1,5 +1,5 @@
 /* login styles */
-.bg-image {
+.bg-login-image {
   background-image: url('/assets/img/long-pier.jpg');
   background-size: cover;
   background-position: top center;
@@ -12,9 +12,4 @@
 
 h3 {
   margin-top: 0;
-}
-
-.btn-auth-group {
-  display: flex;
-  flex-direction: column;
 }
