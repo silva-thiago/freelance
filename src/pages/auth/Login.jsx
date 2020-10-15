@@ -83,7 +83,7 @@ const Login = () => {
         <div className='page-header login-page header-filter bg-login-image' filter-color='black'>
           <div className='container'>
             <div className='row'>
-              <div className='col-lg-6 col-md-6 col-sm-8 mx-auto'>
+              <div className='col-lg-8 col-md-8 col-sm-8 mx-auto'>
                 <form className={classes.root + 'form'}>
                   <div className='card card-login card-hidden'>
                     <div className='card-header card-header-blue text-center'>

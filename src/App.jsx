@@ -9,8 +9,8 @@ const App = () => {
     <div>
       <main>
         <Login />
-        <ForgotPassword />
         <AccountStack />
+        <ForgotPassword />
       </main>
     </div>
   )
